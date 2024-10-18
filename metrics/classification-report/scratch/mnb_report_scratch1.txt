@@ -1,0 +1,14 @@
+                     precision    recall  f1-score   support
+
+   CryptoCurrencies       0.86      0.62      0.72       500
+       DeepThoughts       0.62      0.75      0.68       500
+          LawSchool       0.74      0.90      0.81       500
+PoliticalDiscussion       0.81      0.70      0.75       500
+  Wallstreetbetsnew       0.75      0.82      0.78       500
+      askphilosophy       0.73      0.80      0.76       500
+    computerscience       0.88      0.70      0.78       500
+        geopolitics       0.80      0.82      0.81       500
+
+           accuracy                           0.76      4000
+          macro avg       0.77      0.76      0.76      4000
+       weighted avg       0.77      0.76      0.76      4000
