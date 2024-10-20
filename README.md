@@ -30,7 +30,7 @@ To assess the performance of the Multinomial Naive Bayes classifier, we evaluate
 
 ### Scratch Implementation
 
-                          precision    recall  f1-score   support
+                         precision    recall  f1-score   support
 
        CryptoCurrencies       0.86      0.62      0.72       500
            DeepThoughts       0.62      0.75      0.68       500
@@ -47,7 +47,7 @@ To assess the performance of the Multinomial Naive Bayes classifier, we evaluate
 
 ### Scikit-Learn Implementation
 
-                          precision    recall  f1-score   support
+                         precision    recall  f1-score   support
 
        CryptoCurrencies       0.83      0.63      0.72       500
            DeepThoughts       0.63      0.70      0.66       500
@@ -69,6 +69,6 @@ The overall accuracy of the scratch implementation is 76%, indicating a reasonab
 Below are the confusion matrices for both the scratch and scikit-learn implementations. These matrices provide insight into which subreddits the model struggles with the most, by showing how many posts from one subreddit were misclassified into another.
 
 <div align="center">
-  <img src="/metrics/confusion-matrix/scratch/mnb_conf_matrix_scratch1.png" width=500 />
-  <img src="/metrics/confusion-matrix/sklearn/mnb_conf_matrix_sklearn1.png" width=500 />
+  <img src="/metrics/confusion-matrix/scratch/mnb_conf_matrix_scratch1.png" width=600 />
+  <img src="/metrics/confusion-matrix/sklearn/mnb_conf_matrix_sklearn1.png" width=600 />
 </div>
