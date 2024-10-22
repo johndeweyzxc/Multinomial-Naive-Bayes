@@ -32,43 +32,43 @@ To assess the performance of the Multinomial Naive Bayes classifier, we evaluate
 
                          precision    recall  f1-score   support
 
-       CryptoCurrencies       0.86      0.62      0.72       500
-           DeepThoughts       0.62      0.75      0.68       500
-              LawSchool       0.74      0.90      0.81       500
-    PoliticalDiscussion       0.81      0.70      0.75       500
-      Wallstreetbetsnew       0.75      0.82      0.78       500
-          askphilosophy       0.73      0.80      0.76       500
-        computerscience       0.88      0.70      0.78       500
-            geopolitics       0.80      0.82      0.81       500
+       CryptoCurrencies       0.86      0.71      0.78       400
+           DeepThoughts       0.65      0.77      0.71       400
+              LawSchool       0.73      0.89      0.80       400
+    PoliticalDiscussion       0.87      0.67      0.76       400
+      Wallstreetbetsnew       0.74      0.80      0.77       400
+          askphilosophy       0.75      0.82      0.78       400
+        computerscience       0.90      0.73      0.81       400
+            geopolitics       0.81      0.84      0.83       400
 
-               accuracy                           0.76      4000
-              macro avg       0.77      0.76      0.76      4000
-           weighted avg       0.77      0.76      0.76      4000
+               accuracy                           0.78      3200
+              macro avg       0.79      0.78      0.78      3200
+           weighted avg       0.79      0.78      0.78      3200
 
 ### Scikit-Learn Implementation
 
                          precision    recall  f1-score   support
 
-       CryptoCurrencies       0.83      0.63      0.72       500
-           DeepThoughts       0.63      0.70      0.66       500
-              LawSchool       0.64      0.89      0.74       500
-    PoliticalDiscussion       0.84      0.67      0.74       500
-      Wallstreetbetsnew       0.77      0.80      0.79       500
-          askphilosophy       0.65      0.81      0.72       500
-        computerscience       0.88      0.69      0.78       500
-            geopolitics       0.88      0.77      0.82       500
+       CryptoCurrencies       0.78      0.80      0.79       400
+           DeepThoughts       0.67      0.69      0.68       400
+              LawSchool       0.75      0.88      0.81       400
+    PoliticalDiscussion       0.85      0.70      0.77       400
+      Wallstreetbetsnew       0.81      0.80      0.80       400
+          askphilosophy       0.74      0.84      0.79       400
+        computerscience       0.90      0.72      0.80       400
+            geopolitics       0.83      0.87      0.85       400
 
-               accuracy                           0.74      4000
-              macro avg       0.77      0.74      0.75      4000
-           weighted avg       0.77      0.74      0.75      4000
+               accuracy                           0.79      3200
+              macro avg       0.79      0.79      0.79      3200
+           weighted avg       0.79      0.79      0.79      3200
 
-The overall accuracy of the scratch implementation is 76%, indicating a reasonably good classification performance across all subreddits.
+The overall accuracy of the scratch implementation is 78%, indicating a reasonably good classification performance across all subreddits.
 
 ### Confusion Matrix
 
 Below are the confusion matrices for both the scratch and scikit-learn implementations. These matrices provide insight into which subreddits the model struggles with the most, by showing how many posts from one subreddit were misclassified into another.
 
 <div align="center">
-  <img src="/metrics/confusion-matrix/scratch/mnb_conf_matrix_scratch1.png" width=600 />
-  <img src="/metrics/confusion-matrix/sklearn/mnb_conf_matrix_sklearn1.png" width=600 />
+  <img src="/metrics/confusion-matrix/scratch/mnb_conf_matrix_scratch1.png" width=700 />
+  <img src="/metrics/confusion-matrix/sklearn/mnb_conf_matrix_sklearn1.png" width=700 />
 </div>
